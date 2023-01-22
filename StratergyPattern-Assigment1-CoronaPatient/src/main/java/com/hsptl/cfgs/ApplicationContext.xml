@@ -7,8 +7,8 @@
 <bean id ="dmds" class = "org.springframework.jdbc.datasource.DriverManagerDataSource">
 <property name="driverClassName" value = "oracle.jdbc.driver.OracleDriver"/>
 <property name="url" value ="jdbc:oracle:thin:@localhost:1521:ORCL"/>
-<property name="username" value ="SYSTEM"/>
-<property name="password" value="Broccoli2626#"/>
+<property name="username" value ="*****"/>
+<property name="password" value="******"/>
 </bean>
 
 <bean id="PaitDAO" class="com.hsptl.dao.PaitentDAOImpl"> 
